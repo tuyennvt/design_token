@@ -1,0 +1,6266 @@
+[
+  {
+    "Checkbox": {
+      "Size": {
+        "type": "number",
+        "value": "{Form.Checkbox-Radio}"
+      },
+      "Gutter": {
+        "type": "number",
+        "value": "{Gutter.Element.Horizontal}"
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Min}"
+      },
+      "Stroke Width": {
+        "type": "number",
+        "value": "{Global.Stroke.M}"
+      },
+      "Color": {
+        "Border": {
+          "Default": {
+            "type": "color",
+            "value": "{Border.Neutral.Default}"
+          },
+          "Disabled": {
+            "type": "color",
+            "value": "{Border.Neutral.Disabled}"
+          }
+        },
+        "BG": {
+          "Selected": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Primary.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Primary.Disabled}"
+            }
+          },
+          "UnSelected": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Layer.Level 0}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{BG.Transparent.Default}"
+            }
+          },
+          "Tick": {
+            "Default": {
+              "type": "color",
+              "value": "{Icon.Neutral.onSolid.Primary Action}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Icon.Primary.onDisabled.Disabled}"
+            }
+          }
+        }
+      }
+    },
+    "Check Circle": {
+      "Padding": {
+        "type": "number",
+        "value": "{Global.Padding.XS.2H}"
+      },
+      "Size": {
+        "S": {
+          "type": "number",
+          "value": "{Global.Size.S.4}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Global.Size.M.1}"
+        }
+      }
+    },
+    "Dropdown": {
+      "Padding": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Section.Padding.Vertical}"
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Padding.Container}"
+        }
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Section}"
+      },
+      "Size": {
+        "Min Width": {
+          "type": "number",
+          "value": "{Global.Size.XL.4}"
+        },
+        "Width": {
+          "type": "number",
+          "value": 250
+        }
+      }
+    },
+    "Input": {
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Base}"
+      },
+      "Atom": {
+        "Label": {
+          "Gutter": {
+            "type": "number",
+            "value": "{Global.Gutter.XS.1}"
+          },
+          "Required": {
+            "type": "color",
+            "value": "{Text.Danger.onWhite.Tertiary}"
+          }
+        },
+        "Domain": {
+          "Size": {
+            "type": "number",
+            "value": "{Global.Size.M.4}"
+          },
+          "Radius": {
+            "type": "number",
+            "value": "{Global Radius.Inner Base}"
+          },
+          "Padding": {
+            "Vertical": {
+              "type": "number",
+              "value": "{Global.Padding.XS.2}"
+            },
+            "Horizontal": {
+              "Inside": {
+                "type": "number",
+                "value": "{Global.Padding.XS.2}"
+              },
+              "Outside": {
+                "type": "number",
+                "value": "{Global.Padding.S.2}"
+              }
+            }
+          },
+          "Color": {
+            "BG": {
+              "Enabled": {
+                "type": "color",
+                "value": "{BG.Primary.Faded.Default}"
+              },
+              "Read Only": {
+                "type": "color",
+                "value": "{BG.Neutral.Faded.Hover}"
+              }
+            },
+            "Text": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Primary.Action.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Tertiary}"
+              }
+            }
+          }
+        },
+        "Number Unit": {
+          "Padding": {
+            "Top": {
+              "type": "number",
+              "value": "{Global.Padding.S.2}"
+            },
+            "Bottom": {
+              "type": "number",
+              "value": "{Global.Padding.XS.2}"
+            }
+          }
+        },
+        "Number Button": {
+          "Color": {
+            "BG": {
+              "Default": {
+                "type": "color",
+                "value": "{Input.Color.BG.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Faded.Pressed}"
+              }
+            }
+          }
+        },
+        "OTP": {
+          "Width": {
+            "type": "number",
+            "value": "{Global.Size.M.3}"
+          },
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.M.4}"
+          },
+          "Gutter": {
+            "type": "number",
+            "value": "{Global.Gutter.S.2H}"
+          },
+          "Padding": {
+            "Horizontal": {
+              "type": "number",
+              "value": "{Global.Padding.S.2H}"
+            },
+            "Vertical": {
+              "type": "number",
+              "value": "{Global.Padding.S.1}"
+            }
+          }
+        }
+      },
+      "Color": {
+        "Border": {
+          "Activated": {
+            "type": "color",
+            "value": "{Border.Primary.Default}"
+          },
+          "Error": {
+            "type": "color",
+            "value": "{Border.Form.Error}"
+          },
+          "Required": {
+            "type": "color",
+            "value": "{Border.Form.Required}"
+          },
+          "Default": {
+            "type": "color",
+            "value": "{Border.Form.Default}"
+          },
+          "Disabled": {
+            "type": "color",
+            "value": "{Border.Form.Disabled}"
+          },
+          "Success": {
+            "type": "color",
+            "value": "{Border.Form.Success}"
+          }
+        },
+        "Text": {
+          "Placeholder": {
+            "type": "color",
+            "value": "{Text.Neutral.Placeholder}"
+          },
+          "Filled": {
+            "type": "color",
+            "value": "{Text.Neutral.Base}"
+          },
+          "Read Only": {
+            "type": "color",
+            "value": "{Text.Neutral.Read Only}"
+          },
+          "Disabled": {
+            "type": "color",
+            "value": "{Text.Neutral.Disabled}"
+          },
+          "Info": {
+            "type": "color",
+            "value": "{Text.Info.Action.Default}"
+          },
+          "Danger": {
+            "type": "color",
+            "value": "{Text.Danger.Action.Default}"
+          },
+          "warning": {
+            "type": "color",
+            "value": "{Text.Warning.Action.Default}"
+          }
+        },
+        "Icon": {
+          "Prefix": {
+            "type": "color",
+            "value": "{Icon.Neutral.Label}"
+          },
+          "Action": {
+            "type": "color",
+            "value": "{Icon.Neutral.Primary Action}"
+          },
+          "Disabled": {
+            "type": "color",
+            "value": "{Icon.Neutral.Disabled}"
+          }
+        },
+        "BG": {
+          "Default": {
+            "type": "color",
+            "value": "{BG.Form.Default.Input}"
+          },
+          "Activated": {
+            "type": "color",
+            "value": "{BG.Form.Activated}"
+          },
+          "Disabled": {
+            "type": "color",
+            "value": "{BG.Form.Disabled}"
+          },
+          "Read Only": {
+            "type": "color",
+            "value": "{BG.Form.Read Only}"
+          },
+          "Box": {
+            "type": "color",
+            "value": "{BG.Form.Default.Input}"
+          }
+        }
+      },
+      "Padding": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.S.3}"
+        },
+        "With Suffix": {
+          "type": "number",
+          "value": "{Global.Padding.XS.2}"
+        },
+        "Vertical": {
+          "L": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2H}"
+          },
+          "M": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2H}"
+          },
+          "S": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2H}"
+          },
+          "XL": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2H}"
+          },
+          "Text area": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          }
+        }
+      },
+      "Gutter": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Gutter.S.2}"
+        },
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.2}"
+        },
+        "Value": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.2}"
+        },
+        "Value Inline": {
+          "type": "number",
+          "value": "{Global.Gutter.S.2}"
+        }
+      },
+      "Min Height": {
+        "Text field": {
+          "type": "number",
+          "value": "{Global.Size.L.1}"
+        },
+        "Content": {
+          "M": {
+            "type": "number",
+            "value": "{Global.Size.M.1}"
+          },
+          "L": {
+            "type": "number",
+            "value": "{Global.Size.M.2}"
+          }
+        }
+      },
+      "Size": {
+        "Vertical": {
+          "S": {
+            "type": "number",
+            "value": "{Form.Size.Vertical.S}"
+          },
+          "M": {
+            "type": "number",
+            "value": "{Form.Size.Vertical.M}"
+          },
+          "L": {
+            "type": "number",
+            "value": "{Form.Size.Vertical.L}"
+          },
+          "XL": {
+            "type": "number",
+            "value": "{Form.Size.Vertical.XL}"
+          }
+        },
+        "Horizontal": {
+          "M": {
+            "type": "number",
+            "value": "{Form.Size.Horizontal.M}"
+          },
+          "S": {
+            "type": "number",
+            "value": "{Form.Size.Horizontal.S}"
+          }
+        }
+      }
+    },
+    "Picker": {
+      "Gutter": {
+        "Month-Year": {
+          "Horizontal": {
+            "type": "number",
+            "value": "{Global.Gutter.S.1}"
+          },
+          "Vertical": {
+            "type": "number",
+            "value": "{Global.Gutter.S.2H}"
+          }
+        }
+      },
+      "Color": {
+        "BG": {
+          "Week": {
+            "Selected": {
+              "type": "color",
+              "value": "{Button.Color.BG.Primary.Faded.Default}"
+            }
+          },
+          "Current": {
+            "type": "color",
+            "value": "{Config.Primary.100}"
+          },
+          "Range": {
+            "type": "color",
+            "value": "{Config.Primary.25}"
+          },
+          "Chosen": {
+            "type": "color",
+            "value": "{BG.Primary.Solid.Default}"
+          },
+          "Current Month": {
+            "type": "color",
+            "value": "{Config.Primary.25}"
+          }
+        }
+      },
+      "Padding": {
+        "Content": {
+          "Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.S.2}"
+          },
+          "Vertical": {
+            "type": "number",
+            "value": "{Global.Padding.M.1}"
+          }
+        }
+      },
+      "Atom": {
+        "Week": {
+          "Radius": {
+            "type": "number",
+            "value": "{Border Radius.Pill}"
+          },
+          "Size": {
+            "type": "number",
+            "value": "{Global.Size.M.2}"
+          }
+        },
+        "Date": {
+          "Size": {
+            "type": "number",
+            "value": "{Global.Size.M.3}"
+          }
+        },
+        "Week day": {
+          "Color": {
+            "type": "color",
+            "value": "{Text.Neutral.Tertiary}"
+          },
+          "Padding Vertical": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          }
+        }
+      }
+    },
+    "Radio": {
+      "Size": {
+        "type": "number",
+        "value": "{Form.Checkbox-Radio}"
+      },
+      "Gutter": {
+        "type": "number",
+        "value": "{Gutter.Element.Horizontal}"
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Border Radius.Pill}"
+      },
+      "Stroke": {
+        "UnSelected": {
+          "type": "number",
+          "value": 1
+        },
+        "Selected": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "Color": {
+        "Border": {
+          "UnSelected": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Neutral.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Neutral.Disabled}"
+            }
+          },
+          "Selected": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Primary.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Primary.Disabled}"
+            }
+          }
+        },
+        "BG": {
+          "Default": {
+            "type": "color",
+            "value": "{BG.Layer.Level 0}"
+          },
+          "Disabled": {
+            "type": "color",
+            "value": "{BG.Transparent.Default}"
+          }
+        }
+      }
+    },
+    "Search": {
+      "Color": {
+        "BG": {
+          "Default": {
+            "type": "color",
+            "value": "{BG.Form.Default.Search}"
+          },
+          "On Layer 2": {
+            "type": "color",
+            "value": "{BG.Form.Default.Search on Layer 2}"
+          }
+        },
+        "Text": {
+          "Default": {
+            "On Layer 2": {
+              "type": "color",
+              "value": "{Text.Neutral.Secondary}"
+            }
+          }
+        }
+      }
+    },
+    "Toggle": {
+      "Radius": {
+        "Price Tag": {
+          "Container": {
+            "type": "number",
+            "value": "{Global Radius.Base}"
+          },
+          "Swipe": {
+            "type": "number",
+            "value": "{Global Radius.Inner Base}"
+          }
+        },
+        "Basic": {
+          "type": "number",
+          "value": "{Border Radius.Pill}"
+        }
+      },
+      "Size": {
+        "Price Tag": {
+          "Height": {
+            "type": "number",
+            "value": "{Form.Size.Vertical.S}"
+          },
+          "Width": {
+            "S": {
+              "type": "number",
+              "value": "{Global.Size.M.3}"
+            },
+            "M": {
+              "type": "number",
+              "value": "{Global.Size.M.4}"
+            },
+            "L": {
+              "type": "number",
+              "value": "{Global.Size.L.1}"
+            }
+          }
+        },
+        "Basic": {
+          "Knob": {
+            "type": "number",
+            "value": "{Global.Size.S.4}"
+          },
+          "Width": {
+            "type": "number",
+            "value": "{Global.Size.M.3}"
+          }
+        }
+      },
+      "Padding": {
+        "type": "number",
+        "value": "{Global.Padding.XS.1}"
+      },
+      "Color": {
+        "BG": {
+          "Selected": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Primary.Solid.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{BG.Primary.Solid.Disabled}"
+            }
+          },
+          "Unselected": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Neutral.Solid.Disabled}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{BG.Neutral.Faded.Disabled}"
+            }
+          }
+        },
+        "Knob": {
+          "Enable": {
+            "type": "color",
+            "value": "{BG.Layer.Level 0}"
+          },
+          "Disabled": {
+            "Selected": {
+              "type": "color",
+              "value": "{BG.Primary.Faded.Disabled}"
+            },
+            "UnSelected": {
+              "type": "color",
+              "value": "{BG.Neutral.Solid.Disabled}"
+            }
+          }
+        }
+      }
+    },
+    "Wheel": {
+      "Gutter": {
+        "type": "number",
+        "value": "{Global.Size.S.2}"
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Base}"
+      },
+      "Height": {
+        "Item": {
+          "type": "number",
+          "value": "{Global Wheel.Height.Item}"
+        },
+        "Starter": {
+          "type": "number",
+          "value": "{Global Wheel.Height.Starter}"
+        },
+        "Wrapper": {
+          "Selected": {
+            "type": "number",
+            "value": "{Global Wheel.Height.Wrapper.Selected}"
+          },
+          "Content": {
+            "type": "number",
+            "value": "{Global Wheel.Height.Wrapper.Content}"
+          },
+          "Container": {
+            "5 Row": {
+              "type": "number",
+              "value": "{Global Wheel.Height.Wrapper.Container.5 Rows}"
+            },
+            "3 Row": {
+              "type": "number",
+              "value": "{Global Wheel.Height.Wrapper.Container.3 Rows}"
+            }
+          }
+        }
+      },
+      "Min Width": {
+        "S": {
+          "type": "number",
+          "value": "{Global.Size.M.3}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Global.Size.L.4}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Global.Size.XL.3}"
+        }
+      },
+      "Color": {
+        "Wrapper": {
+          "type": "color",
+          "value": "{BG.Primary.Faded.Default}"
+        },
+        "Text": {
+          "Default": {
+            "type": "color",
+            "value": "{Text.Neutral.Tertiary}"
+          },
+          "Selected": {
+            "type": "color",
+            "value": "{Text.Primary.onWhite.Primary}"
+          },
+          "Selected Unit": {
+            "type": "color",
+            "value": "{Text.Primary.onWhite.Secondary}"
+          }
+        }
+      },
+      "Padding": {
+        "Item": {
+          "type": "number",
+          "value": "{Global.Padding.S.2}"
+        },
+        "Wrapper": {
+          "type": "number",
+          "value": "{Wheel.Height.Wrapper.Selected}"
+        },
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Padding.XS.2}"
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.S.3}"
+        },
+        "Month": {
+          "Tháng 1": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.0}"
+          },
+          "Tháng 2": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.1}"
+          },
+          "Tháng 3": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.2}"
+          },
+          "Tháng 4": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.3}"
+          },
+          "Tháng 5": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.4}"
+          },
+          "Tháng 6": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.5}"
+          },
+          "Tháng 7": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.6}"
+          },
+          "Tháng 8": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.7}"
+          },
+          "Tháng 9": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.8}"
+          },
+          "Tháng 10": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.9}"
+          },
+          "Tháng 11": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.10}"
+          },
+          "Tháng 12": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.11}"
+          }
+        },
+        "Time": {
+          "Minute": {
+            "0": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.0}"
+            },
+            "1": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.1}"
+            },
+            "2": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.2}"
+            },
+            "3": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.3}"
+            },
+            "4": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.4}"
+            },
+            "5": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.5}"
+            },
+            "6": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.6}"
+            },
+            "7": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.7}"
+            },
+            "8": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.8}"
+            },
+            "9": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.9}"
+            },
+            "10": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.10}"
+            },
+            "11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.11}"
+            },
+            "12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.12}"
+            },
+            "13": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.13}"
+            },
+            "14": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.14}"
+            },
+            "15": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.15}"
+            },
+            "16": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.16}"
+            },
+            "17": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.17}"
+            },
+            "18": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.18}"
+            },
+            "19": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.19}"
+            },
+            "20": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.20}"
+            },
+            "21": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.21}"
+            },
+            "22": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.22}"
+            },
+            "23": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.23}"
+            },
+            "24": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.24}"
+            },
+            "25": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.25}"
+            },
+            "26": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.26}"
+            },
+            "27": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.27}"
+            },
+            "28": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.28}"
+            },
+            "29": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.29}"
+            },
+            "30": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.30}"
+            },
+            "31": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.31}"
+            },
+            "32": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.32}"
+            },
+            "33": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.33}"
+            },
+            "34": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.34}"
+            },
+            "35": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.35}"
+            },
+            "36": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.36}"
+            },
+            "37": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.37}"
+            },
+            "38": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.38}"
+            },
+            "39": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.39}"
+            },
+            "40": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.40}"
+            },
+            "41": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.41}"
+            },
+            "42": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.42}"
+            },
+            "43": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.43}"
+            },
+            "44": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.44}"
+            },
+            "45": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.45}"
+            },
+            "46": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.46}"
+            },
+            "47": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.47}"
+            },
+            "48": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.48}"
+            },
+            "49": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.49}"
+            },
+            "50": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.50}"
+            },
+            "51": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.51}"
+            },
+            "52": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.52}"
+            },
+            "53": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.53}"
+            },
+            "54": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.54}"
+            },
+            "55": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.55}"
+            },
+            "56": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.56}"
+            },
+            "57": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.57}"
+            },
+            "58": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.58}"
+            },
+            "59": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.59}"
+            }
+          },
+          "24 Hours": {
+            "0": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.0}"
+            },
+            "1": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.1}"
+            },
+            "2": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.2}"
+            },
+            "3": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.3}"
+            },
+            "4": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.4}"
+            },
+            "5": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.5}"
+            },
+            "6": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.6}"
+            },
+            "7": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.7}"
+            },
+            "8": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.8}"
+            },
+            "9": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.9}"
+            },
+            "10": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.10}"
+            },
+            "11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.11}"
+            },
+            "12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.12}"
+            },
+            "13": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.13}"
+            },
+            "14": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.14}"
+            },
+            "15": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.15}"
+            },
+            "16": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.16}"
+            },
+            "17": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.17}"
+            },
+            "18": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.18}"
+            },
+            "19": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.19}"
+            },
+            "20": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.20}"
+            },
+            "21": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.21}"
+            },
+            "22": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.22}"
+            },
+            "23": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.23}"
+            }
+          },
+          "12 Hours": {
+            "0": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.0}"
+            },
+            "1": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.1}"
+            },
+            "2": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.2}"
+            },
+            "3": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.3}"
+            },
+            "4": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.4}"
+            },
+            "5": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.5}"
+            },
+            "6": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.6}"
+            },
+            "7": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.7}"
+            },
+            "8": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.8}"
+            },
+            "9": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.9}"
+            },
+            "10": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.10}"
+            },
+            "11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.11}"
+            }
+          }
+        },
+        "Date": {
+          "31 Dates": {
+            "1": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.0}"
+            },
+            "2": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.1}"
+            },
+            "3": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.2}"
+            },
+            "4": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.3}"
+            },
+            "5": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.4}"
+            },
+            "6": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.5}"
+            },
+            "7": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.6}"
+            },
+            "8": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.7}"
+            },
+            "9": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.8}"
+            },
+            "10": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.9}"
+            },
+            "11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.10}"
+            },
+            "12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.11}"
+            },
+            "13": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.12}"
+            },
+            "14": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.13}"
+            },
+            "15": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.14}"
+            },
+            "16": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.15}"
+            },
+            "17": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.16}"
+            },
+            "18": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.17}"
+            },
+            "19": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.18}"
+            },
+            "20": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.19}"
+            },
+            "21": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.20}"
+            },
+            "22": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.21}"
+            },
+            "23": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.22}"
+            },
+            "24": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.23}"
+            },
+            "25": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.24}"
+            },
+            "26": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.25}"
+            },
+            "27": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.26}"
+            },
+            "28": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.27}"
+            },
+            "29": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.28}"
+            },
+            "30": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.29}"
+            },
+            "31": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.30}"
+            }
+          },
+          "AM-PM": {
+            "AM": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.0}"
+            },
+            "PM": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.1}"
+            }
+          },
+          "DD-MM-YY": {
+            "16-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.0}"
+            },
+            "17-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.1}"
+            },
+            "18-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.2}"
+            },
+            "19-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.3}"
+            },
+            "20-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.4}"
+            },
+            "21-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.5}"
+            },
+            "22-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.6}"
+            },
+            "23-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.7}"
+            },
+            "24-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.8}"
+            },
+            "25-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.9}"
+            },
+            "26-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.10}"
+            },
+            "27-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.11}"
+            },
+            "28-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.12}"
+            },
+            "29-11": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.13}"
+            },
+            "Hôm nay": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.14}"
+            },
+            "1-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.15}"
+            },
+            "2-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.16}"
+            },
+            "3-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.17}"
+            },
+            "4-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.18}"
+            },
+            "5-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.19}"
+            },
+            "6-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.20}"
+            },
+            "7-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.21}"
+            },
+            "8-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.22}"
+            },
+            "9-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.23}"
+            },
+            "10-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.24}"
+            },
+            "11-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.25}"
+            },
+            "12-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.26}"
+            },
+            "13-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.27}"
+            },
+            "14-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.28}"
+            },
+            "15-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.29}"
+            },
+            "16-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.30}"
+            },
+            "17-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.31}"
+            },
+            "18-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.32}"
+            },
+            "19-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.33}"
+            },
+            "20-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.34}"
+            },
+            "21-12": {
+              "type": "number",
+              "value": "{Global Wheel.Padding.35}"
+            }
+          }
+        },
+        "Year": {
+          "1934": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.0}"
+          },
+          "1935": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.1}"
+          },
+          "1936": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.2}"
+          },
+          "1937": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.3}"
+          },
+          "1938": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.4}"
+          },
+          "1939": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.5}"
+          },
+          "1940": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.6}"
+          },
+          "1941": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.7}"
+          },
+          "1942": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.8}"
+          },
+          "1943": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.9}"
+          },
+          "1944": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.10}"
+          },
+          "1945": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.11}"
+          },
+          "1946": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.12}"
+          },
+          "1947": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.13}"
+          },
+          "1948": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.14}"
+          },
+          "1949": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.15}"
+          },
+          "1950": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.16}"
+          },
+          "1951": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.17}"
+          },
+          "1952": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.18}"
+          },
+          "1953": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.19}"
+          },
+          "1954": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.20}"
+          },
+          "1955": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.21}"
+          },
+          "1956": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.22}"
+          },
+          "1957": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.23}"
+          },
+          "1958": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.24}"
+          },
+          "1959": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.25}"
+          },
+          "1960": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.26}"
+          },
+          "1961": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.27}"
+          },
+          "1962": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.28}"
+          },
+          "1963": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.29}"
+          },
+          "1964": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.30}"
+          },
+          "1965": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.31}"
+          },
+          "1966": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.32}"
+          },
+          "1967": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.33}"
+          },
+          "1968": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.34}"
+          },
+          "1969": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.35}"
+          },
+          "1970": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.36}"
+          },
+          "1971": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.37}"
+          },
+          "1972": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.38}"
+          },
+          "1973": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.39}"
+          },
+          "1974": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.40}"
+          },
+          "1975": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.41}"
+          },
+          "1976": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.42}"
+          },
+          "1977": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.43}"
+          },
+          "1978": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.44}"
+          },
+          "1979": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.45}"
+          },
+          "1980": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.46}"
+          },
+          "1981": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.47}"
+          },
+          "1982": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.48}"
+          },
+          "1983": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.49}"
+          },
+          "1984": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.50}"
+          },
+          "1985": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.51}"
+          },
+          "1986": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.51}"
+          },
+          "1987": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.53}"
+          },
+          "1988": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.54}"
+          },
+          "1989": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.55}"
+          },
+          "1990": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.56}"
+          },
+          "1991": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.57}"
+          },
+          "1992": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.58}"
+          },
+          "1993": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.59}"
+          },
+          "1994": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.60}"
+          },
+          "1995": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.61}"
+          },
+          "1996": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.62}"
+          },
+          "1997": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.63}"
+          },
+          "1998": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.64}"
+          },
+          "1999": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.65}"
+          },
+          "2000": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.66}"
+          },
+          "2001": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.67}"
+          },
+          "2002": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.68}"
+          },
+          "2003": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.69}"
+          },
+          "2004": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.70}"
+          },
+          "2005": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.71}"
+          },
+          "2006": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.72}"
+          },
+          "2007": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.73}"
+          },
+          "2008": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.74}"
+          },
+          "2009": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.75}"
+          },
+          "2010": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.76}"
+          },
+          "2011": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.77}"
+          },
+          "2012": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.78}"
+          },
+          "2013": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.79}"
+          },
+          "2014": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.80}"
+          },
+          "2015": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.81}"
+          },
+          "2016": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.82}"
+          },
+          "2017": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.83}"
+          },
+          "2018": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.84}"
+          },
+          "2019": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.85}"
+          },
+          "2020": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.86}"
+          },
+          "2021": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.87}"
+          },
+          "2022": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.88}"
+          },
+          "2023": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.89}"
+          },
+          "2024": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.90}"
+          },
+          "2025": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.91}"
+          },
+          "2026": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.92}"
+          },
+          "2027": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.93}"
+          },
+          "2028": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.94}"
+          },
+          "2029": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.95}"
+          },
+          "2030": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.96}"
+          },
+          "2031": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.97}"
+          },
+          "2032": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.98}"
+          },
+          "2033": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.99}"
+          },
+          "2034": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.100}"
+          }
+        },
+        "Day": {
+          "Thứ Hai": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.0}"
+          },
+          "Thứ Ba": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.1}"
+          },
+          "Thứ Tư": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.2}"
+          },
+          "Thứ Năm": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.3}"
+          },
+          "Thứ Sáu": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.4}"
+          },
+          "Thứ Bảy": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.5}"
+          },
+          "Chủ Nhật": {
+            "type": "number",
+            "value": "{Global Wheel.Padding.6}"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Minimum Tap Area": {
+      "type": "number",
+      "value": "{Size Box.10}"
+    },
+    "Form": {
+      "Size": {
+        "Vertical": {
+          "XXXS": {
+            "type": "number",
+            "value": "{Global.Size.S.3}"
+          },
+          "XXS": {
+            "type": "number",
+            "value": "{Global.Size.S.4}"
+          },
+          "XS": {
+            "type": "number",
+            "value": "{Global.Size.M.1}"
+          },
+          "S": {
+            "type": "number",
+            "value": "{Global.Size.M.2}"
+          },
+          "M": {
+            "type": "number",
+            "value": "{Global.Size.M.3}"
+          },
+          "L": {
+            "type": "number",
+            "value": "{Global.Size.M.4}"
+          },
+          "XL": {
+            "type": "number",
+            "value": "{Global.Size.L.1}"
+          }
+        },
+        "Horizontal": {
+          "M": {
+            "type": "number",
+            "value": "{Global.Size.XL.3}"
+          },
+          "S": {
+            "type": "number",
+            "value": "{Global.Size.XL.1}"
+          }
+        }
+      }
+    },
+    "Color": {
+      "Text": {
+        "Functional": {
+          "Product property": {
+            "type": "color",
+            "value": "{Text.Warning.Action.Default}"
+          }
+        }
+      }
+    },
+    "Global Radius": {
+      "Min": {
+        "type": "number",
+        "value": "{Border Radius.1H}"
+      },
+      "Base": {
+        "type": "number",
+        "value": "{Border Radius.2H}"
+      },
+      "Inner Base": {
+        "type": "number",
+        "value": "{Border Radius.2}"
+      },
+      "Section": {
+        "type": "number",
+        "value": "{Border Radius.4}"
+      }
+    },
+    "Padding": {
+      "Body": {
+        "Horizontal": {
+          "Center": {
+            "type": "number",
+            "value": "{Global.Padding.S.3}"
+          },
+          "Fluid": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "Bottom": {
+          "type": "number",
+          "value": "{Global.Padding.L.4}"
+        },
+        "Top": {
+          "Header Solid": {
+            "type": "number",
+            "value": "{Global.Padding.S.3}"
+          },
+          "Header Transperent": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "Container": {
+        "type": "number",
+        "value": "{Global.Padding.S.3}"
+      }
+    },
+    "Application Gutter": {
+      "type": "number",
+      "value": 0
+    },
+    "Stroke": {
+      "MH": {
+        "type": "number",
+        "value": 0.5
+      },
+      "M": {
+        "type": "number",
+        "value": 1
+      },
+      "L": {
+        "type": "number",
+        "value": 2
+      }
+    },
+    "Gutter": {
+      "Block": {
+        "type": "number",
+        "value": "{Global.Gutter.M.1}"
+      },
+      "Item": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.1}"
+        },
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.1}"
+        }
+      },
+      "Element": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Gutter.S.1}"
+        },
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Gutter.S.1}"
+        }
+      },
+      "Section": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Gutter.S.3}"
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Gutter.S.2}"
+        }
+      },
+      "Application": {
+        "Vertical": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    }
+  },
+  {
+    "Button": {
+      "Color": {
+        "Text": {
+          "Primary": {
+            "Solid": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Primary.onSolid.Primary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Primary.onDisabled.Disabled}"
+              }
+            },
+            "Faded": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Primary.onFaded.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Primary.onFaded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Primary.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Primary.onWhite.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Primary.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Primary.onWhite.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Primary.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Primary.onWhite.Disabled}"
+              }
+            }
+          },
+          "Success": {
+            "Solid": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Success.onSolid.Primary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Success.onDisabled.Disabled}"
+              }
+            },
+            "Faded": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Success.onFaded.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Success.onFaded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Disabled}"
+              }
+            }
+          },
+          "Warning": {
+            "Solid": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Warning.onSolid.Primary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Warning.onDisabled.Disabled}"
+              }
+            },
+            "Faded": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Warning.onFaded.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Warning.onFaded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Disabled}"
+              }
+            }
+          },
+          "Danger": {
+            "Solid": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Danger.onSolid.Primary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Danger.onDisabled.Disabled}"
+              }
+            },
+            "Faded": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Danger.onFaded.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Danger.onFaded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Disabled}"
+              }
+            }
+          },
+          "Neutral": {
+            "Solid": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Neutral.onSolid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.onDisabled.Disabled}"
+              }
+            },
+            "Faded": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Strong}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Disabled}"
+              }
+            },
+            "Outline": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Label}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Disabled}"
+              }
+            }
+          },
+          "Promotion": {
+            "Solid": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onSolid.Primary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onDisabled.Disabled}"
+              }
+            },
+            "Faded": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onFaded.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onFaded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onWhite.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onWhite.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onWhite.Secondary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Promotion.onWhite.Disabled}"
+              }
+            }
+          }
+        },
+        "BG": {
+          "Primary": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Primary.Solid.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Primary.Solid.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Primary.Solid.Disabled}"
+              }
+            },
+            "Faded": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Primary.Faded.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Primary.Faded.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Primary.Faded.Disabled}"
+              },
+              "Disabled test": {
+                "type": "color",
+                "value": "{BG.Primary.Faded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Primary.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Primary.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Primary.Tertiary.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Primary.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Primary.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Primary.Tertiary.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Primary.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Layer.Level 0}"
+              }
+            }
+          },
+          "Success": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{Success.Solid.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Success.Solid.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Success.Solid.Disabled}"
+              },
+              "test": {
+                "type": "color",
+                "value": "{BG.Success.Solid.Default}"
+              }
+            },
+            "Faded": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Success.Faded.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Success.Faded.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Success.Faded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Success.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Success.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Success.Tertiary.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Success.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Success.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Success.Tertiary.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Success.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Success.Tertiary.Disabled}"
+              }
+            }
+          },
+          "Warning": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Warning.Solid.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Warning.Solid.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Warning.Solid.Disabled}"
+              }
+            },
+            "Faded": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Warning.Faded.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Warning.Faded.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Warning.Faded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Warning.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Warning.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Warning.Tertiary.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Warning.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Warning.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Warning.Tertiary.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Warning.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Warning.Tertiary.Disabled}"
+              }
+            }
+          },
+          "Danger": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Danger.Solid.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Danger.Solid.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Danger.Solid.Disabled}"
+              }
+            },
+            "Faded": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Danger.Faded.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Danger.Faded.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Danger.Faded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Danger.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Danger.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Danger.Tertiary.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Danger.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Danger.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Danger.Tertiary.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Danger.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Danger.Tertiary.Disabled}"
+              }
+            }
+          },
+          "Neutral": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Neutral.Solid.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Solid.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Neutral.Solid.Disabled}"
+              }
+            },
+            "Faded": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Neutral.Faded.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Faded.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Neutral.Faded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Disabled}"
+              }
+            }
+          },
+          "Promotion": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Promotion.Solid.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Promotion.Solid.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Promotion.Solid.Disabled}"
+              }
+            },
+            "Faded": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Promotion.Faded.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Promotion.Faded.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Promotion.Faded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Promotion.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Promotion.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Promotion.Tertiary.Disabled}"
+              }
+            },
+            "Tertiary": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Promotion.Tertiary.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Promotion.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Promotion.Tertiary.Disabled}"
+              }
+            },
+            "onWhite": {
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Promotion.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Promotion.Tertiary.Disabled}"
+              }
+            }
+          },
+          "onWhite": {
+            "type": "color",
+            "value": "{BG.Layer.Level 0}"
+          }
+        },
+        "Border": {
+          "Primary": {
+            "Enabled": {
+              "type": "color",
+              "value": "{Border.Primary.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Primary.Disabled}"
+            }
+          },
+          "Success": {
+            "Enabled": {
+              "type": "color",
+              "value": "{Border.Success.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Success.Disabled}"
+            }
+          },
+          "Warning": {
+            "Enabled": {
+              "type": "color",
+              "value": "{Border.Warning.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Warning.Disabled}"
+            }
+          },
+          "Danger": {
+            "Enabled": {
+              "type": "color",
+              "value": "{Border.Danger.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Danger.Disabled}"
+            }
+          },
+          "Neutral": {
+            "Enabled": {
+              "type": "color",
+              "value": "{Border.Neutral.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Neutral.Disabled}"
+            }
+          },
+          "Promotion": {
+            "Enabled": {
+              "type": "color",
+              "value": "{Border.Promotion.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Promotion.Disabled}"
+            }
+          }
+        },
+        "Icon": {
+          "Circle": {
+            "Text": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Icon.Neutral.Primary Action}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Icon.Neutral.Disabled}"
+              }
+            },
+            "Faded": {
+              "Enabled": {
+                "type": "color",
+                "value": "{Icon.Neutral.onFaded.Primary Action}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Icon.Neutral.onFaded.Disabled}"
+              }
+            }
+          }
+        }
+      },
+      "Size": {
+        "XS": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.XS}"
+        },
+        "S": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.S}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.M}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.L}"
+        },
+        "XL": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.XL}"
+        },
+        "Gutter": {
+          "S": {
+            "type": "number",
+            "value": "{Global.Gutter.S.1}"
+          },
+          "M": {
+            "type": "number",
+            "value": "{Global.Gutter.S.2H}"
+          },
+          "L": {
+            "type": "number",
+            "value": "{Global.Gutter.S.2}"
+          },
+          "XL": {
+            "type": "number",
+            "value": "{Global.Gutter.S.3H}"
+          }
+        },
+        "Padding": {
+          "Horizontal": {
+            "S": {
+              "type": "number",
+              "value": "{Global.Padding.S.2}"
+            },
+            "M": {
+              "type": "number",
+              "value": "{Global.Padding.S.3}"
+            },
+            "L": {
+              "type": "number",
+              "value": "{Global.Padding.S.4}"
+            },
+            "XL": {
+              "type": "number",
+              "value": "{Global.Padding.M.1}"
+            }
+          },
+          "Vertical": {
+            "S": {
+              "type": "number",
+              "value": "{Global.Padding.S.1}"
+            },
+            "M": {
+              "type": "number",
+              "value": "{Global.Padding.S.2H}"
+            },
+            "L": {
+              "type": "number",
+              "value": "{Global.Padding.S.2}"
+            },
+            "XL": {
+              "type": "number",
+              "value": "{Global.Padding.S.3H}"
+            }
+          }
+        },
+        "Radius": {
+          "type": "number",
+          "value": "{Border Radius.Pill}"
+        },
+        "Border": {
+          "Stroke Width": {
+            "type": "number",
+            "value": "{Global.Stroke.MH}"
+          }
+        },
+        "Absolute": {
+          "S": {
+            "type": "number",
+            "value": "{Icon.S.Size}"
+          }
+        }
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Base}"
+      }
+    },
+    "Button Combo": {
+      "Size": {
+        "Button Circle Group": {
+          "Width": {
+            "type": "number",
+            "value": "{Global.Size.L.3}"
+          }
+        },
+        "Button Circle": {
+          "Width": {
+            "type": "number",
+            "value": "{Global.Size.M.2}"
+          }
+        }
+      }
+    },
+    "Button Group": {
+      "Gutter": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Gutter.Element.Vertical}"
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Gutter.Element.Horizontal}"
+        }
+      },
+      "Padding": {
+        "Top": {
+          "type": "number",
+          "value": "{Global.Padding.S.3}"
+        },
+        "Right": {
+          "type": "number",
+          "value": "{Global.Padding.S.3}"
+        },
+        "Bottom": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        },
+        "Left": {
+          "type": "number",
+          "value": "{Global.Padding.S.3}"
+        }
+      }
+    },
+    "Button Inline": {
+      "Color": {
+        "Text": {
+          "Primary": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Primary.Action.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Text.Primary.onWhite.Disabled}"
+            }
+          },
+          "Neutral": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Neutral.Secondary}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Text.Neutral.Disabled}"
+            }
+          }
+        },
+        "Icon": {
+          "Primary": {
+            "Default": {
+              "type": "color",
+              "value": "{Button Inline.Color.Text.Primary.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Button Inline.Color.Text.Primary.Disabled}"
+            }
+          },
+          "Neutral": {
+            "Default": {
+              "type": "color",
+              "value": "{Button Inline.Color.Text.Neutral.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Button Inline.Color.Text.Neutral.Disabled}"
+            }
+          }
+        }
+      },
+      "Gutter": {
+        "S": {
+          "type": "number",
+          "value": "{Gutter.1}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Gutter.2}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Gutter.3}"
+        }
+      }
+    },
+    "Button FAB": {
+      "Size": {
+        "Main Button": {
+          "type": "number",
+          "value": "{Button.Size.XL}"
+        }
+      },
+      "Gutter": {
+        "Item Group": {
+          "Vertical": {
+            "type": "number",
+            "value": "{Global.Gutter.S.1}"
+          },
+          "Horizontal": {
+            "type": "number",
+            "value": "{Global.Gutter.S.2}"
+          }
+        }
+      },
+      "Color": {
+        "BG": {
+          "Solid": {
+            "Default": {
+              "type": "color",
+              "value": "{Button.Color.BG.Primary.Solid.Default}"
+            },
+            "Pressed": {
+              "type": "color",
+              "value": "{Button.Color.BG.Primary.Solid.Pressed}"
+            }
+          },
+          "onWhite": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Layer.Level 0}"
+            },
+            "Pressed": {
+              "type": "color",
+              "value": "{BG.Primary.Tertiary.Pressed}"
+            }
+          }
+        },
+        "Icon": {
+          "Solid": {
+            "type": "color",
+            "value": "{Icon.Primary.onSolid.Primary Action}"
+          },
+          "onWhite": {
+            "type": "color",
+            "value": "{Text.Primary.onWhite.Secondary}"
+          }
+        }
+      },
+      "Padding": {
+        "Item Group": {
+          "Bottom": {
+            "type": "number",
+            "value": "{Global.Padding.L.4}"
+          },
+          "Right": {
+            "type": "number",
+            "value": "{Global.Padding.S.4}"
+          }
+        }
+      },
+      "Margin": {
+        "Bottom": {
+          "With Tabbar": {
+            "type": "number",
+            "value": "{Global.Margin.M.1}"
+          },
+          "Without Tabbar": {
+            "type": "number",
+            "value": "{Global.Margin.M.3}"
+          }
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Margin.S.4}"
+        }
+      }
+    },
+    "Section": {
+      "Gutter": {
+        "Body": {
+          "type": "number",
+          "value": 0
+        },
+        "Group Body": {
+          "type": "number",
+          "value": "{Global.Gutter.S.3}"
+        },
+        "Content": {
+          "type": "number",
+          "value": "{Global.Gutter.S.1}"
+        }
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Section}"
+      },
+      "Padding": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        },
+        "Header": {
+          "Vertical": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          }
+        },
+        "Content": {
+          "Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.S.3}"
+          },
+          "Vertical": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          }
+        }
+      }
+    },
+    "Divider": {
+      "Stroke": {
+        "Line": {
+          "type": "number",
+          "value": "{Stroke.M}"
+        },
+        "Section": {
+          "type": "number",
+          "value": "{Stroke.L}"
+        },
+        "Outline": {
+          "type": "number",
+          "value": "{Stroke.MH}"
+        }
+      }
+    },
+    "Button Tag": {
+      "Gutter": {
+        "type": "number",
+        "value": "{Gutter.Item.Vertical}"
+      },
+      "Size": {
+        "Min Width": {
+          "type": "number",
+          "value": "{Global.Size.L.1}"
+        }
+      },
+      "Padding": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Padding.XS.2H}"
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        }
+      }
+    },
+    "Intro": {
+      "Padding": {
+        "Caption": {
+          "Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.M.1}"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Header": {
+      "Padding": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Padding.Container}"
+        },
+        "Bottom": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        },
+        "Top": {
+          "type": "number",
+          "value": "{Safe Area.Padding.Top}"
+        },
+        "Sub Header": {
+          "Filter": {
+            "Vertical": {
+              "type": "number",
+              "value": "{Global.Padding.S.1}"
+            },
+            "Horizontal": {
+              "type": "number",
+              "value": "{Global.Padding.S.3}"
+            }
+          },
+          "Metric": {
+            "Vertical": {
+              "Top": {
+                "type": "number",
+                "value": "{Global.Padding.XS.2H}"
+              },
+              "Bottom": {
+                "type": "number",
+                "value": "{Global.Padding.S.1}"
+              }
+            },
+            "Horizontal": {
+              "type": "number",
+              "value": "{Padding.Container}"
+            }
+          },
+          "BI Time Frame": {
+            "Vertical": {
+              "Bottom": {
+                "type": "number",
+                "value": "{Global.Padding.S.1}"
+              }
+            }
+          }
+        }
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Section}"
+      },
+      "Gutter": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Gutter.Element.Horizontal}"
+        },
+        "Sub Header": {
+          "Filter": {
+            "Horizontal": {
+              "type": "number",
+              "value": "{Gutter.Element.Horizontal}"
+            }
+          },
+          "BI Time Frame": {
+            "Vertical": {
+              "type": "number",
+              "value": "{Gutter.Element.Vertical}"
+            }
+          }
+        }
+      },
+      "Size": {
+        "Min Height": {
+          "Main Content": {
+            "type": "number",
+            "value": "{Global.Size.M.4H}"
+          },
+          "Prefix": {
+            "type": "number",
+            "value": "{Global.Size.M.3}"
+          }
+        },
+        "Sub Header": {
+          "Action Group": {
+            "Min Width": {
+              "type": "number",
+              "value": "{Global.Size.L.3}"
+            }
+          }
+        }
+      }
+    },
+    "Tabbar": {
+      "Padding": {
+        "Item": {
+          "Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          },
+          "Top": {
+            "type": "number",
+            "value": "{Global.Padding.S.3}"
+          }
+        },
+        "Container": {
+          "Bottom": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          }
+        }
+      },
+      "Bottom": {
+        "type": "number",
+        "value": "{Safe Area.Height.Bottom}"
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Section}"
+      },
+      "Gutter": {
+        "Item": {
+          "type": "number",
+          "value": "{Global.Gutter.S.1}"
+        }
+      },
+      "Color": {
+        "Text": {
+          "Item": {
+            "Selected": {
+              "type": "color",
+              "value": "{Text.Primary.Action.Default}"
+            },
+            "Default": {
+              "type": "color",
+              "value": "{Text.Neutral.Secondary}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Text.Neutral.Disabled}"
+            }
+          },
+          "Action Item": {
+            "type": "color",
+            "value": "{Text.Primary.onSolid.Primary}"
+          }
+        },
+        "BG": {
+          "Action Item": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Primary.Solid.Default}"
+            },
+            "Pressed": {
+              "type": "color",
+              "value": "{BG.Primary.Solid.Pressed}"
+            }
+          }
+        }
+      },
+      "Size": {
+        "Action Item": {
+          "type": "number",
+          "value": "{Global.Size.M.4}"
+        }
+      }
+    },
+    "Tab": {
+      "Width": {
+        "Bar": {
+          "type": "number",
+          "value": "{Global.Size.M.3}"
+        }
+      },
+      "Color": {
+        "BG": {
+          "Bar": {
+            "type": "color",
+            "value": "{BG.Primary.Solid.Default}"
+          }
+        },
+        "Text": {
+          "Default": {
+            "type": "color",
+            "value": "{Text.Neutral.Secondary}"
+          },
+          "Selected": {
+            "type": "color",
+            "value": "{Text.Primary.Action.Default}"
+          },
+          "Disabled": {
+            "type": "color",
+            "value": "{Text.Neutral.Disabled}"
+          }
+        },
+        "Icon": {
+          "Tab Icon": {
+            "Selected": {
+              "type": "color",
+              "value": "{Icon.Primary.Label}"
+            }
+          }
+        }
+      },
+      "Height": {
+        "type": "number",
+        "value": 3
+      },
+      "Padding": {
+        "Horizontal": {
+          "Item": {
+            "type": "number",
+            "value": "{Global.Padding.S.3}"
+          },
+          "Icon": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          }
+        },
+        "Vertical": {
+          "Top": {
+            "S": {
+              "type": "number",
+              "value": "{Global.Padding.XS.2}"
+            },
+            "M": {
+              "type": "number",
+              "value": "{Global.Padding.XS.3}"
+            }
+          },
+          "Bottom": {
+            "type": "number",
+            "value": "{Global.Padding.S.2}"
+          }
+        }
+      },
+      "Gutter": {
+        "S": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.2}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Global.Gutter.S.1}"
+        }
+      }
+    },
+    "Swipe": {
+      "Color": {
+        "Divider": {
+          "type": "color",
+          "value": "{Divider.Dot}"
+        },
+        "Text": {
+          "Default": {
+            "type": "color",
+            "value": "{Text.Neutral.Default}"
+          },
+          "Selected Primary": {
+            "type": "color",
+            "value": "{Text.Primary.onSolid.Primary}"
+          },
+          "Selected White": {
+            "type": "color",
+            "value": "{Text.Neutral.Base}"
+          },
+          "Disabled": {
+            "type": "color",
+            "value": "{Text.Neutral.Disabled}"
+          }
+        }
+      },
+      "Gutter": {
+        "type": "number",
+        "value": "{Gutter.Item.Horizontal}"
+      },
+      "Padding": {
+        "Container": {
+          "type": "number",
+          "value": "{Global.Padding.XS.2H}"
+        },
+        "Divider": {
+          "type": "number",
+          "value": "{Padding.2}"
+        }
+      },
+      "Radius": {
+        "Outside": {
+          "type": "number",
+          "value": "{Global Radius.Base}"
+        },
+        "Inside": {
+          "type": "number",
+          "value": "{Global Radius.Inner Base}"
+        }
+      },
+      "Size": {
+        "Item": {
+          "type": "number",
+          "value": "{Global.Size.M.2}"
+        },
+        "Container": {
+          "type": "number",
+          "value": "{Global.Size.M.3}"
+        }
+      }
+    },
+    "Sheet": {
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Section}"
+      },
+      "Color": {
+        "Grabber": {
+          "type": "color",
+          "value": "{Config.Neutral.150}"
+        }
+      },
+      "Gutter": {
+        "type": "number",
+        "value": 0
+      },
+      "Margin": {
+        "Action": {
+          "type": "number",
+          "value": "{Global.Margin.M.3}"
+        }
+      },
+      "Padding": {
+        "Content": {
+          "Horizontal": {
+            "type": "number",
+            "value": "{Padding.Container}"
+          }
+        },
+        "Header": {
+          "Horizontal": {
+            "type": "number",
+            "value": "{Padding.Container}"
+          },
+          "Top": {
+            "type": "number",
+            "value": "{Padding.Container}"
+          }
+        }
+      },
+      "Size": {
+        "Max Height": {
+          "type": "number",
+          "value": "{Sheet.Max Height}"
+        },
+        "Min Height": {
+          "type": "number",
+          "value": "{Sheet.Min Height}"
+        },
+        "Grabber": {
+          "Width": {
+            "type": "number",
+            "value": "{Global.Size.M.4}"
+          },
+          "Height": {
+            "type": "number",
+            "value": 6
+          }
+        }
+      }
+    }
+  },
+  {
+    "Badge": {
+      "Radius": {
+        "type": "number",
+        "value": "{Border Radius.Pill}"
+      },
+      "Color": {
+        "BG": {
+          "Primary": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Primary.Solid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Primary.Solid.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Layer.Level 0}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Primary.onDisabled.Disabled}"
+              }
+            }
+          },
+          "Success": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Success.Solid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Success.Solid.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Layer.Level 0}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Success.onDisabled.Disabled}"
+              }
+            }
+          },
+          "Warning": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Warning.Solid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Warning.Solid.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Layer.Level 0}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Warning.onDisabled.Disabled}"
+              }
+            }
+          },
+          "Danger": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Danger.Solid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Danger.Solid.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Layer.Level 0}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Danger.onDisabled.Disabled}"
+              }
+            }
+          },
+          "Neutral": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Neutral.Solid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Neutral.Solid.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Layer.Level 0}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.onDisabled.Disabled}"
+              }
+            }
+          }
+        },
+        "Text": {
+          "Primary": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Neutral.onSolid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Primary.onDisabled.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Primary.Action.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Primary.onWhite.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Primary.Action.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Primary.Solid.Disabled}"
+              }
+            }
+          },
+          "Success": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Neutral.onSolid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Success.onDisabled.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Quartary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Success.onWhite.Quartary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Success.Solid.Disabled}"
+              }
+            }
+          },
+          "Warning": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Neutral.onSolid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Warning.onDisabled.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Quartary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Warning.onWhite.Quartary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Warning.Solid.Disabled}"
+              }
+            }
+          },
+          "Danger": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Neutral.onSolid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Danger.onDisabled.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Tertiary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Danger.onWhite.Tertiary}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Danger.Solid.Disabled}"
+              }
+            }
+          },
+          "Neutral": {
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Neutral.onSolid.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.onDisabled.Disabled}"
+              }
+            },
+            "Outline": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Neutral.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{Text.Neutral.Disabled}"
+              }
+            },
+            "onSolid": {
+              "Default": {
+                "type": "color",
+                "value": "{Text.Neutral.Default}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Neutral.Solid.Disabled}"
+              }
+            }
+          }
+        },
+        "Border": {
+          "Primary": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Primary.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Primary.Disabled}"
+            }
+          },
+          "Success": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Success.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Success.Disabled}"
+            }
+          },
+          "Warning": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Warning.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Warning.Disabled}"
+            }
+          },
+          "Danger": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Danger.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Danger.Disabled}"
+            }
+          },
+          "Neutral": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Neutral.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Neutral.Disabled}"
+            }
+          }
+        }
+      },
+      "Stroke": {
+        "type": "number",
+        "value": "{Global.Stroke.M}"
+      },
+      "Size": {
+        "S": {
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.S.3}"
+          },
+          "Padding Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.XS.1}"
+          },
+          "Min Width": {
+            "type": "number",
+            "value": "{Global.Size.S.3}"
+          }
+        },
+        "M": {
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.S.4}"
+          },
+          "Padding Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2}"
+          },
+          "Min Width": {
+            "type": "number",
+            "value": "{Global.Size.S.4}"
+          }
+        },
+        "L": {
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.M.1}"
+          },
+          "Padding Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.XS.3}"
+          },
+          "Min Width": {
+            "type": "number",
+            "value": "{Global.Size.M.1}"
+          }
+        },
+        "XL": {
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.M.2H}"
+          },
+          "Padding Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          },
+          "Min Width": {
+            "type": "number",
+            "value": "{Global.Size.M.2H}"
+          }
+        }
+      }
+    },
+    "Badge Dot": {
+      "Stroke Width": {
+        "type": "number",
+        "value": "{Global.Stroke.MH}"
+      },
+      "Stroke": {
+        "type": "color",
+        "value": "{Border.onSolid}"
+      },
+      "Size": {
+        "M": {
+          "type": "number",
+          "value": "{Global.Size.S.1}"
+        }
+      }
+    },
+    "Chip": {
+      "Stroke Width": {
+        "type": "number",
+        "value": "{Button.Size.Border.Stroke Width}"
+      },
+      "Gutter": {
+        "S": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.2}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.3}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Global.Gutter.S.1}"
+        }
+      },
+      "Padding": {
+        "S": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Global.Padding.S.2}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Global.Padding.S.3}"
+        },
+        "Avatar": {
+          "S": {
+            "type": "number",
+            "value": "{Global.Padding.XS.1}"
+          },
+          "M": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2}"
+          },
+          "L": {
+            "type": "number",
+            "value": "{Global.Padding.XS.3}"
+          }
+        },
+        "Icon Only": {
+          "S": {
+            "type": "number",
+            "value": "{Global.Padding.XS.3}"
+          },
+          "M": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          },
+          "L": {
+            "type": "number",
+            "value": "{Global.Padding.S.2H}"
+          }
+        }
+      },
+      "Color": {
+        "Border": {
+          "UnSelected": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Neutral.Faded}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Neutral.Disabled}"
+            }
+          },
+          "Selected": {
+            "Default": {
+              "type": "color",
+              "value": "{Border.Primary.Secondary}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Border.Primary.Disabled}"
+            }
+          }
+        },
+        "Text": {
+          "Active": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Primary.onSolid.Primary}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Text.Primary.onDisabled.Disabled}"
+            }
+          },
+          "UnSelected": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Neutral.Base}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Text.Neutral.Disabled}"
+            }
+          },
+          "Selected": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Primary.onFaded.Secondary}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{Text.Primary.onWhite.Disabled}"
+            }
+          }
+        },
+        "BG": {
+          "Active": {
+            "Default": {
+              "type": "color",
+              "value": "{Badge.Color.BG.Primary.Solid.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{BG.Primary.Solid.Disabled}"
+            }
+          },
+          "UnSelected": {
+            "Faded": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Neutral.Faded.Default}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Faded.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Neutral.Faded.Disabled}"
+              }
+            },
+            "Outline": {
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Pressed}"
+              }
+            },
+            "Solid": {
+              "Default": {
+                "type": "color",
+                "value": "{BG.Layer.Level 0}"
+              },
+              "Pressed": {
+                "type": "color",
+                "value": "{BG.Neutral.Tertiary.Pressed}"
+              },
+              "Disabled": {
+                "type": "color",
+                "value": "{BG.Layer.Level 0}"
+              }
+            }
+          },
+          "Selected": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Primary.Faded.Default}"
+            },
+            "Disabled": {
+              "type": "color",
+              "value": "{BG.Primary.Faded.Disabled}"
+            }
+          }
+        }
+      },
+      "Size": {
+        "S": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.XS}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.S}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.M}"
+        }
+      },
+      "Min Width": {
+        "S": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.XS}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.S}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Form.Size.Vertical.M}"
+        }
+      }
+    },
+    "Progress Bar": {
+      "Height": {
+        "type": "number",
+        "value": 6
+      },
+      "Color": {
+        "InActive": {
+          "type": "color",
+          "value": "{BG.Layer.Level 3}"
+        },
+        "Active": {
+          "type": "color",
+          "value": "{BG.Primary.Solid.Default}"
+        }
+      },
+      "Gutter": {
+        "Bar": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.1}"
+        },
+        "Row": {
+          "type": "number",
+          "value": "{Global.Gutter.S.1}"
+        }
+      },
+      "Padding": {
+        "Top": {
+          "Unit On": {
+            "type": "number",
+            "value": "{Padding.8}"
+          },
+          "Unit Off": {
+            "type": "number",
+            "value": "{Padding.2}"
+          }
+        },
+        "Bottom": {
+          "type": "number",
+          "value": "{Padding.2}"
+        }
+      }
+    },
+    "Loader": {
+      "Spin": {
+        "Size": {
+          "S": {
+            "type": "number",
+            "value": "{Size Box.6}"
+          },
+          "M": {
+            "type": "number",
+            "value": "{Size Box.12}"
+          }
+        }
+      },
+      "Color": {
+        "Loader": {
+          "Primary": {
+            "type": "color",
+            "value": "{Border.Primary.Default}"
+          },
+          "Secondary": {
+            "type": "color",
+            "value": "{Border.Neutral.Default}"
+          }
+        },
+        "Supporter": {
+          "Primary": {
+            "type": "color",
+            "value": "{Border.Primary.Faded}"
+          },
+          "Secondary": {
+            "type": "color",
+            "value": "{Border.Neutral.Faded}"
+          }
+        }
+      },
+      "Body": {
+        "type": "number",
+        "value": 4
+      }
+    },
+    "Swipe Action": {
+      "Padding": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        }
+      },
+      "Size": {
+        "Min Width": {
+          "type": "number",
+          "value": "{Global.Size.L.1}"
+        }
+      },
+      "Color": {
+        "BG": {
+          "Primary": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Primary.Solid.Default}"
+            },
+            "Pressed": {
+              "type": "color",
+              "value": "{BG.Primary.Solid.Pressed}"
+            }
+          },
+          "Success": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Success.Solid.Default}"
+            },
+            "Pressed": {
+              "type": "color",
+              "value": "{BG.Success.Solid.Pressed}"
+            }
+          },
+          "Warning": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Warning.Solid.Default}"
+            },
+            "Pressed": {
+              "type": "color",
+              "value": "{BG.Warning.Solid.Pressed}"
+            }
+          },
+          "Danger": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Danger.Solid.Default}"
+            },
+            "Pressed": {
+              "type": "color",
+              "value": "{BG.Danger.Solid.Pressed}"
+            }
+          },
+          "Neutral": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Neutral.Solid.Default}"
+            },
+            "Pressed": {
+              "type": "color",
+              "value": "{BG.Neutral.Solid.Pressed}"
+            }
+          }
+        },
+        "Text": {
+          "Primary": {
+            "type": "color",
+            "value": "{Text.Primary.onSolid.Secondary}"
+          },
+          "Success": {
+            "type": "color",
+            "value": "{Text.Success.onSolid.Secondary}"
+          },
+          "Warning": {
+            "type": "color",
+            "value": "{Text.Warning.onSolid.Secondary}"
+          },
+          "Danger": {
+            "type": "color",
+            "value": "{Text.Danger.onSolid.Secondary}"
+          },
+          "Neutral": {
+            "type": "color",
+            "value": "{Text.Neutral.onSolid.Secondary}"
+          },
+          "Default": {
+            "type": "color",
+            "value": "{Text.Neutral.onSolid.Default}"
+          }
+        }
+      }
+    }
+  },
+  {
+    "Accordion": {
+      "Padding": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Padding.Container}"
+        },
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Padding.S.2}"
+        }
+      },
+      "Gutter": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Gutter.S.1}"
+        }
+      }
+    },
+    "Alert": {
+      "Stroke": {
+        "type": "number",
+        "value": "{Global.Stroke.M}"
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Section.Radius}"
+      },
+      "Padding": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Padding.Container}"
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Padding.Container}"
+        }
+      },
+      "Color": {
+        "BG": {
+          "Neutral": {
+            "type": "color",
+            "value": "{Config.Neutral.25}"
+          },
+          "Info": {
+            "type": "color",
+            "value": "{Config.Info.25}"
+          },
+          "Warning": {
+            "type": "color",
+            "value": "{Config.Warning.25}"
+          },
+          "Danger": {
+            "type": "color",
+            "value": "{Config.Danger.25}"
+          },
+          "Success": {
+            "type": "color",
+            "value": "{Config.Success.25}"
+          },
+          "Promotion": {
+            "type": "color",
+            "value": "{Config.Promotion.25}"
+          }
+        },
+        "Icon": {
+          "Neutral": {
+            "type": "color",
+            "value": "{Icon.Neutral.onFaded.Label}"
+          },
+          "Info": {
+            "type": "color",
+            "value": "{Icon.Info.onFaded.Label}"
+          },
+          "Warning": {
+            "type": "color",
+            "value": "{Icon.Warning.onFaded.Label}"
+          },
+          "Danger": {
+            "type": "color",
+            "value": "{Icon.Danger.onFaded.Label}"
+          },
+          "Success": {
+            "type": "color",
+            "value": "{Icon.Success.onFaded.Label}"
+          },
+          "Promotion": {
+            "type": "color",
+            "value": "{Icon.Promotion.onFaded.Label}"
+          }
+        },
+        "Border": {
+          "Neutral": {
+            "type": "color",
+            "value": "{Border.Neutral.Faded}"
+          },
+          "Info": {
+            "type": "color",
+            "value": "{Border.Primary.Faded}"
+          },
+          "Warning": {
+            "type": "color",
+            "value": "{Border.Warning.Faded}"
+          },
+          "Danger": {
+            "type": "color",
+            "value": "{Border.Danger.Faded}"
+          },
+          "Success": {
+            "type": "color",
+            "value": "{Border.Success.Faded}"
+          },
+          "Promotion": {
+            "type": "color",
+            "value": "{Border.Promotion.Faded}"
+          }
+        }
+      },
+      "Gutter": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Gutter.Element.Vertical}"
+        }
+      }
+    },
+    "Avatar": {
+      "Color": {
+        "Icon": {
+          "Error": {
+            "type": "color",
+            "value": "{Icon.Warning.Label}"
+          },
+          "Not Found": {
+            "type": "color",
+            "value": "{Icon.Neutral.Label}"
+          }
+        },
+        "Illustration": {
+          "Body": {
+            "type": "color",
+            "value": "{Config.Primary.400}"
+          },
+          "Head": {
+            "type": "color",
+            "value": "{Config.Primary.200}"
+          }
+        },
+        "BG": {
+          "Default": {
+            "type": "color",
+            "value": "{BG.Primary.Faded.Default}"
+          },
+          "Not Found": {
+            "type": "color",
+            "value": "{BG.Neutral.Solid.Disabled}"
+          },
+          "Error": {
+            "type": "color",
+            "value": "{BG.Warning.Faded.Default}"
+          }
+        }
+      },
+      "Size": {
+        "XS": {
+          "type": "number",
+          "value": "{Global.Size.S.4}"
+        },
+        "S": {
+          "type": "number",
+          "value": "{Global.Size.M.1}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Global.Size.M.3}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Global.Size.L.1}"
+        },
+        "XL": {
+          "type": "number",
+          "value": "{Global.Size.L.2}"
+        }
+      }
+    },
+    "Banner": {
+      "Gutter": {
+        "type": "number",
+        "value": "{Gutter.Element.Horizontal}"
+      },
+      "Padding": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Padding.Container}"
+        }
+      }
+    },
+    "Card": {
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Section}"
+      }
+    },
+    "Empty State": {
+      "Padding": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.M.2}"
+        },
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Padding.M.2}"
+        },
+        "Top": {
+          "type": "number",
+          "value": "{Global.Padding.L.3}"
+        }
+      },
+      "Gutter": {
+        "Vertical": {
+          "Element": {
+            "type": "number",
+            "value": "{Gutter.Block}"
+          },
+          "Content": {
+            "type": "number",
+            "value": "{Gutter.Element.Vertical}"
+          }
+        }
+      }
+    },
+    "Grid": {
+      "Gutter": {
+        "type": "number",
+        "value": "{Global.Gutter.S.1}"
+      },
+      "Size": {
+        "Min Height": {
+          "type": "number",
+          "value": "{Global.Size.M.3}"
+        }
+      }
+    },
+    "Icon Container": {
+      "Size": {
+        "S": {
+          "type": "number",
+          "value": "{Global.Size.M.1}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Global.Size.M.2}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Global.Size.M.3}"
+        }
+      },
+      "Padding": {
+        "XS": {
+          "type": "number",
+          "value": 0
+        },
+        "S": {
+          "type": "number",
+          "value": "{Global.Padding.XS.2}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Global.Padding.S.2}"
+        }
+      }
+    },
+    "List": {
+      "Min Height": {
+        "Suffix": {
+          "type": "number",
+          "value": "{Global.Size.S.4}"
+        }
+      },
+      "Color": {
+        "Text Object": {
+          "type": "color",
+          "value": "{Text.Warning.onWhite.Tertiary}"
+        }
+      },
+      "Gutter": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Gutter.Item.Vertical}"
+        },
+        "Horizontal": {
+          "Layout": {
+            "type": "number",
+            "value": "{Global.Gutter.S.2}"
+          },
+          "Inline": {
+            "type": "number",
+            "value": "{Global.Gutter.XS.2}"
+          }
+        }
+      },
+      "Padding": {
+        "Vertical": {
+          "XS": {
+            "Content": {
+              "type": "number",
+              "value": "{Global.Padding.XS.2}"
+            },
+            "Prefix": {
+              "type": "number",
+              "value": "{Global.Padding.S.1}"
+            },
+            "Suffix": {
+              "type": "number",
+              "value": "{Global.Padding.XS.1}"
+            }
+          },
+          "S": {
+            "Content": {
+              "type": "number",
+              "value": "{Global.Padding.S.1}"
+            },
+            "Prefix": {
+              "type": "number",
+              "value": "{Global.Padding.S.2H}"
+            },
+            "Suffix": {
+              "type": "number",
+              "value": "{Global.Padding.XS.2}"
+            }
+          },
+          "M": {
+            "Content": {
+              "type": "number",
+              "value": "{Global.Padding.S.2}"
+            },
+            "Prefix": {
+              "type": "number",
+              "value": "{Global.Padding.S.3H}"
+            },
+            "Suffix": {
+              "type": "number",
+              "value": "{Global.Padding.XS.2}"
+            }
+          }
+        },
+        "Horizontal": {
+          "Container": {
+            "type": "number",
+            "value": "{Global.Padding.S.3}"
+          }
+        }
+      }
+    },
+    "Modal": {
+      "Margin": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Margin.M.2}"
+        }
+      },
+      "Padding": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Padding.Container}"
+        },
+        "Vertical": {
+          "Container Top": {
+            "type": "number",
+            "value": "{Global.Padding.XS.3}"
+          },
+          "Content": {
+            "type": "number",
+            "value": "{Global.Padding.S.1}"
+          }
+        },
+        "Footer": {
+          "Vertical": {
+            "Bottom": {
+              "type": "number",
+              "value": "{Global.Padding.S.3}"
+            },
+            "Top": {
+              "type": "number",
+              "value": "{Global.Padding.S.1}"
+            }
+          }
+        }
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Section}"
+      },
+      "Size": {
+        "Min Height": {
+          "type": "number",
+          "value": "{Global.Size.L.1}"
+        }
+      }
+    },
+    "Scroll Bar": {
+      "Width": {
+        "type": "number",
+        "value": 4
+      },
+      "Position Default": {
+        "Start": {
+          "type": "number",
+          "value": 0
+        },
+        "End": {
+          "type": "number",
+          "value": 30
+        }
+      },
+      "BG": {
+        "Container": {
+          "type": "color",
+          "value": "{BG.Transparent.Default}"
+        },
+        "Bar": {
+          "type": "color",
+          "value": "{BG.Neutral.Solid.Default}"
+        }
+      }
+    },
+    "Selector": {
+      "Size": {
+        "Link Page": {
+          "Min Height": {
+            "type": "number",
+            "value": "{Global.Size.S.4H}"
+          }
+        },
+        "Bar": {
+          "Width": {
+            "type": "number",
+            "value": "{Global.Size.M.4}"
+          },
+          "Height": {
+            "type": "number",
+            "value": 3
+          },
+          "Radius": {
+            "type": "number",
+            "value": "{Global Radius.Min}"
+          }
+        },
+        "Radius": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "Color": {
+        "Bar": {
+          "type": "color",
+          "value": "{BG.Primary.Solid.Default}"
+        }
+      }
+    },
+    "Tag": {
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Min}"
+      },
+      "Color": {
+        "Border": {
+          "Neutral": {
+            "type": "color",
+            "value": "{Border.Neutral.Faded}"
+          },
+          "Success": {
+            "type": "color",
+            "value": "{Border.Success.Faded}"
+          },
+          "Danger": {
+            "type": "color",
+            "value": "{Border.Danger.Faded}"
+          },
+          "Warning": {
+            "type": "color",
+            "value": "{Border.Warning.Faded}"
+          },
+          "Information": {
+            "type": "color",
+            "value": "{Border.Information.Faded}"
+          },
+          "Promotion": {
+            "type": "color",
+            "value": "{Border.Promotion.Faded}"
+          }
+        },
+        "BG": {
+          "Selected": {
+            "type": "color",
+            "value": "{Tag.Color.BG.Faded.Neutral}"
+          },
+          "Passed": {
+            "type": "color",
+            "value": "{Tag.Color.BG.Faded.Success}"
+          },
+          "False": {
+            "type": "color",
+            "value": "{Tag.Color.BG.Faded.Danger}"
+          },
+          "Promote": {
+            "type": "color",
+            "value": "{Tag.Color.BG.Faded.Promotion}"
+          },
+          "Faded": {
+            "Neutral": {
+              "type": "color",
+              "value": "{BG.Neutral.Faded.Default}"
+            },
+            "Success": {
+              "type": "color",
+              "value": "{BG.Success.Faded.Default}"
+            },
+            "Danger": {
+              "type": "color",
+              "value": "{BG.Danger.Faded.Default}"
+            },
+            "Warning": {
+              "type": "color",
+              "value": "{BG.Warning.Faded.Default}"
+            },
+            "Information": {
+              "type": "color",
+              "value": "{BG.Info.Faded.Default}"
+            },
+            "Promotion": {
+              "type": "color",
+              "value": "{BG.Promotion.Faded.Default}"
+            }
+          },
+          "Solid": {
+            "Neutral": {
+              "type": "color",
+              "value": "{BG.Neutral.Solid.Default}"
+            },
+            "Success": {
+              "type": "color",
+              "value": "{BG.Success.Solid.Default}"
+            },
+            "Danger": {
+              "type": "color",
+              "value": "{BG.Danger.Solid.Default}"
+            },
+            "Warning": {
+              "type": "color",
+              "value": "{BG.Warning.Solid.Default}"
+            },
+            "Information": {
+              "type": "color",
+              "value": "{BG.Info.Solid.Default}"
+            },
+            "Promotion": {
+              "type": "color",
+              "value": "{BG.Promotion.Solid.Default}"
+            }
+          }
+        },
+        "Text": {
+          "Solid": {
+            "Neutral": {
+              "type": "color",
+              "value": "{Text.Neutral.onSolid.Secondary}"
+            },
+            "Success": {
+              "type": "color",
+              "value": "{Text.Success.onSolid.Secondary}"
+            },
+            "Danger": {
+              "type": "color",
+              "value": "{Text.Danger.onSolid.Secondary}"
+            },
+            "Warning": {
+              "type": "color",
+              "value": "{Text.Warning.onSolid.Secondary}"
+            },
+            "Information": {
+              "type": "color",
+              "value": "{Text.Info.onSolid.Secondary}"
+            },
+            "Promotion": {
+              "type": "color",
+              "value": "{Text.Promotion.onSolid.Secondary}"
+            }
+          },
+          "Faded": {
+            "Neutral": {
+              "type": "color",
+              "value": "{Text.Neutral.onSolid.Secondary}"
+            },
+            "Success": {
+              "type": "color",
+              "value": "{Text.Success.onSolid.Secondary}"
+            },
+            "Danger": {
+              "type": "color",
+              "value": "{Text.Danger.onSolid.Secondary}"
+            },
+            "Warning": {
+              "type": "color",
+              "value": "{Text.Warning.onSolid.Secondary}"
+            },
+            "Information": {
+              "type": "color",
+              "value": "{Text.Info.onSolid.Secondary}"
+            },
+            "Promotion": {
+              "type": "color",
+              "value": "{Text.Promotion.onSolid.Secondary}"
+            }
+          },
+          "Selected": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Neutral.Base}"
+            },
+            "Secondary": {
+              "type": "color",
+              "value": "{Text.Neutral.Secondary}"
+            }
+          },
+          "Passed": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Success.onWhite.Tertiary}"
+            },
+            "Secondary": {
+              "type": "color",
+              "value": "{Text.Success.onWhite.Secondary}"
+            }
+          },
+          "False": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Danger.Action.Default}"
+            },
+            "Secondary": {
+              "type": "color",
+              "value": "{Text.Danger.onWhite.Secondary}"
+            }
+          },
+          "Promotion": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Promotion.Action.Default}"
+            },
+            "Secondary": {
+              "type": "color",
+              "value": "{Text.Promotion.onWhite.Tertiary}"
+            }
+          }
+        }
+      },
+      "Size": {
+        "M": {
+          "type": "number",
+          "value": "{Global.Size.M.1}",
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.M.1}"
+          },
+          "Padding Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2}"
+          },
+          "Padding Vertical": {
+            "type": "number",
+            "value": "{Global.Padding.XS.1}"
+          }
+        },
+        "L": {
+          "type": "number",
+          "value": "{Global.Size.M.2}",
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.M.2}"
+          },
+          "Padding Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2}"
+          },
+          "Padding Vertical": {
+            "type": "number",
+            "value": "{Global.Padding.XS.1}"
+          }
+        },
+        "Gutter": {
+          "type": "number",
+          "value": "{Global.Gutter.XS.2}"
+        },
+        "S": {
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.S.4}"
+          },
+          "Padding Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2}"
+          },
+          "Padding Vertical": {
+            "type": "number",
+            "value": "{Global.Padding.XS.1}"
+          }
+        },
+        "MH": {
+          "Height": {
+            "type": "number",
+            "value": "{Global.Size.S.4}"
+          },
+          "Padding Horizontal": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2}"
+          },
+          "Padding Vertical": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2H}"
+          }
+        }
+      }
+    },
+    "Toast": {
+      "Gutter": {
+        "type": "number",
+        "value": "{Global.Gutter.S.2}"
+      },
+      "Padding": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.S.4}"
+        },
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Padding.S.2}"
+        }
+      },
+      "Color": {
+        "Icon": {
+          "Default": {
+            "type": "color",
+            "value": "{Icon.Primary.onSolid.Primary Action}"
+          },
+          "Info": {
+            "type": "color",
+            "value": "{Icon.Info.onFaded.Secondary Action}"
+          },
+          "Success": {
+            "type": "color",
+            "value": "{Icon.Success.onFaded.Secondary Action}"
+          },
+          "Warning": {
+            "type": "color",
+            "value": "{Icon.Warning.onFaded.Secondary Action}"
+          },
+          "Danger": {
+            "type": "color",
+            "value": "{Icon.Danger.onFaded.Secondary Action}"
+          }
+        },
+        "BG": {
+          "Default": {
+            "type": "color",
+            "value": "{BG.Primary.Strongest.Default}"
+          },
+          "Info": {
+            "type": "color",
+            "value": "{BG.Info.Faded.Default}"
+          },
+          "Success": {
+            "type": "color",
+            "value": "{BG.Success.Faded.Default}"
+          },
+          "Warning": {
+            "type": "color",
+            "value": "{BG.Warning.Faded.Default}"
+          },
+          "Danger": {
+            "type": "color",
+            "value": "{BG.Danger.Faded.Default}"
+          }
+        },
+        "Text": {
+          "Sub": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Neutral.onSolid.Tertiary}"
+            },
+            "Info": {
+              "type": "color",
+              "value": "{Text.Info.onFaded.Secondary}"
+            },
+            "Success": {
+              "type": "color",
+              "value": "{Text.Success.onFaded.Tertiary}"
+            },
+            "Warning": {
+              "type": "color",
+              "value": "{Text.Warning.onFaded.Tertiary}"
+            },
+            "Danger": {
+              "type": "color",
+              "value": "{Text.Danger.onFaded.Secondary}"
+            }
+          },
+          "Title": {
+            "Default": {
+              "type": "color",
+              "value": "{Text.Neutral.onSolid.Default}"
+            },
+            "Info": {
+              "type": "color",
+              "value": "{Text.Info.onFaded.Primary}"
+            },
+            "Success": {
+              "type": "color",
+              "value": "{Text.Success.onFaded.Primary}"
+            },
+            "Warning": {
+              "type": "color",
+              "value": "{Text.Warning.onFaded.Primary}"
+            },
+            "Danger": {
+              "type": "color",
+              "value": "{Text.Danger.onFaded.Primary}"
+            }
+          }
+        }
+      }
+    },
+    "Table": {
+      "Margin": {
+        "Button Exit": {
+          "Top": {
+            "type": "number",
+            "value": "{Global.Margin.S.3}"
+          },
+          "Right": {
+            "type": "number",
+            "value": "{Global.Margin.S.3}"
+          }
+        }
+      },
+      "Border": {
+        "Stroke Width": {
+          "type": "number",
+          "value": "{Global.Stroke.M}"
+        }
+      },
+      "Padding": {
+        "Vertical": {
+          "type": "number",
+          "value": "{Global.Padding.S.2}"
+        },
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.XS.3}"
+        }
+      }
+    },
+    "Sticker": {
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Min}"
+      },
+      "Size": {
+        "M": {
+          "type": "number",
+          "value": "{Global.Size.M.1}"
+        },
+        "S": {
+          "type": "number",
+          "value": "{Global.Size.S.4H}"
+        }
+      },
+      "Margin": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.S.1}"
+        }
+      },
+      "Padding": {
+        "Horizontal": {
+          "type": "number",
+          "value": "{Global.Padding.XS.2H}"
+        }
+      }
+    },
+    "Draggable": {
+      "Effect": {
+        "BG": {
+          "Blur": {
+            "type": "number",
+            "value": 20
+          }
+        }
+      }
+    }
+  },
+  {
+    "Keyboard": {
+      "Color": {
+        "BG": {
+          "Default": {
+            "type": "color",
+            "value": "{BG.Keyboard.Normal.Default}"
+          },
+          "Suggestion OTP": {
+            "Default": {
+              "type": "color",
+              "value": "{BG.Keyboard.Tertiary.Default}"
+            }
+          }
+        }
+      },
+      "Size": {
+        "Default": {
+          "type": "number",
+          "value": "{Global.Size.M.4}"
+        },
+        "Emphasized": {
+          "type": "number",
+          "value": "{Global.Size.XL.1}"
+        }
+      },
+      "Padding": {
+        "Suggestion OTP": {
+          "Top": {
+            "type": "number",
+            "value": "{Global.Padding.XS.2}"
+          },
+          "Bottom": {
+            "type": "number",
+            "value": "{Global.Padding.XS.1}"
+          }
+        },
+        "type": "number",
+        "value": "{Keyboard.Gutter}"
+      },
+      "Radius": {
+        "type": "number",
+        "value": "{Global Radius.Min}"
+      },
+      "Gutter": {
+        "type": "number",
+        "value": "{Global.Gutter.S.1}"
+      },
+      "Padding Bottom": {
+        "type": "number",
+        "value": "{Global.Padding.S.3}"
+      },
+      "Text": {
+        "Size": {
+          "type": "number",
+          "value": 24
+        },
+        "Line Height": {
+          "type": "number",
+          "value": 32
+        },
+        "Weight": {
+          "type": "number",
+          "value": 500
+        }
+      }
+    }
+  },
+  {
+    "Global Wheel": {
+      "Padding": {
+        "0": {
+          "type": "number",
+          "value": 0
+        },
+        "1": {
+          "type": "number",
+          "value": 64
+        },
+        "2": {
+          "type": "number",
+          "value": 128
+        },
+        "3": {
+          "type": "number",
+          "value": 192
+        },
+        "4": {
+          "type": "number",
+          "value": 256
+        },
+        "5": {
+          "type": "number",
+          "value": 320
+        },
+        "6": {
+          "type": "number",
+          "value": 384
+        },
+        "7": {
+          "type": "number",
+          "value": 448
+        },
+        "8": {
+          "type": "number",
+          "value": 512
+        },
+        "9": {
+          "type": "number",
+          "value": 576
+        },
+        "10": {
+          "type": "number",
+          "value": 640
+        },
+        "11": {
+          "type": "number",
+          "value": 704
+        },
+        "12": {
+          "type": "number",
+          "value": 768
+        },
+        "13": {
+          "type": "number",
+          "value": 832
+        },
+        "14": {
+          "type": "number",
+          "value": 896
+        },
+        "15": {
+          "type": "number",
+          "value": 960
+        },
+        "16": {
+          "type": "number",
+          "value": 1024
+        },
+        "17": {
+          "type": "number",
+          "value": 1088
+        },
+        "18": {
+          "type": "number",
+          "value": 1152
+        },
+        "19": {
+          "type": "number",
+          "value": 1216
+        },
+        "20": {
+          "type": "number",
+          "value": 1280
+        },
+        "21": {
+          "type": "number",
+          "value": 1344
+        },
+        "22": {
+          "type": "number",
+          "value": 1408
+        },
+        "23": {
+          "type": "number",
+          "value": 1472
+        },
+        "24": {
+          "type": "number",
+          "value": 1536
+        },
+        "25": {
+          "type": "number",
+          "value": 1600
+        },
+        "26": {
+          "type": "number",
+          "value": 1664
+        },
+        "27": {
+          "type": "number",
+          "value": 1728
+        },
+        "28": {
+          "type": "number",
+          "value": 1792
+        },
+        "29": {
+          "type": "number",
+          "value": 1856
+        },
+        "30": {
+          "type": "number",
+          "value": 1920
+        },
+        "31": {
+          "type": "number",
+          "value": 1984
+        },
+        "32": {
+          "type": "number",
+          "value": 2048
+        },
+        "33": {
+          "type": "number",
+          "value": 2112
+        },
+        "34": {
+          "type": "number",
+          "value": 2176
+        },
+        "35": {
+          "type": "number",
+          "value": 2240
+        },
+        "36": {
+          "type": "number",
+          "value": 2304
+        },
+        "37": {
+          "type": "number",
+          "value": 2368
+        },
+        "38": {
+          "type": "number",
+          "value": 2432
+        },
+        "39": {
+          "type": "number",
+          "value": 2496
+        },
+        "40": {
+          "type": "number",
+          "value": 2560
+        },
+        "41": {
+          "type": "number",
+          "value": 2624
+        },
+        "42": {
+          "type": "number",
+          "value": 2688
+        },
+        "43": {
+          "type": "number",
+          "value": 2752
+        },
+        "44": {
+          "type": "number",
+          "value": 2816
+        },
+        "45": {
+          "type": "number",
+          "value": 2880
+        },
+        "46": {
+          "type": "number",
+          "value": 2944
+        },
+        "47": {
+          "type": "number",
+          "value": 3008
+        },
+        "48": {
+          "type": "number",
+          "value": 3072
+        },
+        "49": {
+          "type": "number",
+          "value": 3136
+        },
+        "50": {
+          "type": "number",
+          "value": 3200
+        },
+        "51": {
+          "type": "number",
+          "value": 3264
+        },
+        "52": {
+          "type": "number",
+          "value": 3328
+        },
+        "53": {
+          "type": "number",
+          "value": 3392
+        },
+        "54": {
+          "type": "number",
+          "value": 3456
+        },
+        "55": {
+          "type": "number",
+          "value": 3520
+        },
+        "56": {
+          "type": "number",
+          "value": 3584
+        },
+        "57": {
+          "type": "number",
+          "value": 3648
+        },
+        "58": {
+          "type": "number",
+          "value": 3712
+        },
+        "59": {
+          "type": "number",
+          "value": 3776
+        },
+        "60": {
+          "type": "number",
+          "value": 3840
+        },
+        "61": {
+          "type": "number",
+          "value": 3904
+        },
+        "62": {
+          "type": "number",
+          "value": 3968
+        },
+        "63": {
+          "type": "number",
+          "value": 4032
+        },
+        "64": {
+          "type": "number",
+          "value": 4096
+        },
+        "65": {
+          "type": "number",
+          "value": 4160
+        },
+        "66": {
+          "type": "number",
+          "value": 4224
+        },
+        "67": {
+          "type": "number",
+          "value": 4288
+        },
+        "68": {
+          "type": "number",
+          "value": 4352
+        },
+        "69": {
+          "type": "number",
+          "value": 4416
+        },
+        "70": {
+          "type": "number",
+          "value": 4480
+        },
+        "71": {
+          "type": "number",
+          "value": 4544
+        },
+        "72": {
+          "type": "number",
+          "value": 4608
+        },
+        "73": {
+          "type": "number",
+          "value": 4672
+        },
+        "74": {
+          "type": "number",
+          "value": 4736
+        },
+        "75": {
+          "type": "number",
+          "value": 4800
+        },
+        "76": {
+          "type": "number",
+          "value": 4864
+        },
+        "77": {
+          "type": "number",
+          "value": 4928
+        },
+        "78": {
+          "type": "number",
+          "value": 4992
+        },
+        "79": {
+          "type": "number",
+          "value": 5056
+        },
+        "80": {
+          "type": "number",
+          "value": 5120
+        },
+        "81": {
+          "type": "number",
+          "value": 5184
+        },
+        "82": {
+          "type": "number",
+          "value": 5248
+        },
+        "83": {
+          "type": "number",
+          "value": 5312
+        },
+        "84": {
+          "type": "number",
+          "value": 5376
+        },
+        "85": {
+          "type": "number",
+          "value": 5440
+        },
+        "86": {
+          "type": "number",
+          "value": 5504
+        },
+        "87": {
+          "type": "number",
+          "value": 5568
+        },
+        "88": {
+          "type": "number",
+          "value": 5632
+        },
+        "89": {
+          "type": "number",
+          "value": 5696
+        },
+        "90": {
+          "type": "number",
+          "value": 5760
+        },
+        "91": {
+          "type": "number",
+          "value": 5824
+        },
+        "92": {
+          "type": "number",
+          "value": 5888
+        },
+        "93": {
+          "type": "number",
+          "value": 5952
+        },
+        "94": {
+          "type": "number",
+          "value": 6016
+        },
+        "95": {
+          "type": "number",
+          "value": 6080
+        },
+        "96": {
+          "type": "number",
+          "value": 6144
+        },
+        "97": {
+          "type": "number",
+          "value": 6208
+        },
+        "98": {
+          "type": "number",
+          "value": 6272
+        },
+        "99": {
+          "type": "number",
+          "value": 6336
+        },
+        "100": {
+          "type": "number",
+          "value": 6400
+        }
+      },
+      "Height": {
+        "Starter": {
+          "type": "number",
+          "value": 128
+        },
+        "Item": {
+          "type": "number",
+          "value": 64
+        },
+        "Wrapper": {
+          "Content": {
+            "type": "number",
+            "value": 320
+          },
+          "Selected": {
+            "type": "number",
+            "value": 64
+          },
+          "Container": {
+            "5 Rows": {
+              "type": "number",
+              "value": 328
+            },
+            "3 Rows": {
+              "type": "number",
+              "value": 194
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "Global": {
+      "Padding": {
+        "XS": {
+          "1": {
+            "type": "number",
+            "value": "{Padding.H}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Padding.1H}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Padding.2}"
+          },
+          "1H": {
+            "type": "number",
+            "value": "{Padding.Will Remove Token}"
+          },
+          "2H": {
+            "type": "number",
+            "value": "{Padding.1}"
+          }
+        },
+        "S": {
+          "1": {
+            "type": "number",
+            "value": "{Padding.2H}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Padding.3H}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Padding.4H}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Padding.5H}"
+          },
+          "2H": {
+            "type": "number",
+            "value": "{Padding.3}"
+          },
+          "3H": {
+            "type": "number",
+            "value": "{Padding.4}"
+          },
+          "4H": {
+            "type": "number",
+            "value": "{Padding.5}"
+          }
+        },
+        "M": {
+          "1": {
+            "type": "number",
+            "value": "{Padding.7}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Padding.9}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Padding.11}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Padding.13}"
+          }
+        },
+        "L": {
+          "1": {
+            "type": "number",
+            "value": "{Padding.15H}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Padding.18H}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Padding.21H}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Padding.24H}"
+          }
+        }
+      },
+      "Margin": {
+        "XS": {
+          "2": {
+            "type": "number",
+            "value": "{Margin.1}"
+          }
+        },
+        "S": {
+          "1": {
+            "type": "number",
+            "value": "{Margin.2H}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Margin.3H}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Margin.4H}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Margin.5H}"
+          }
+        },
+        "M": {
+          "1": {
+            "type": "number",
+            "value": "{Margin.7}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Margin.9}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Margin.11}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Margin.13}"
+          }
+        }
+      },
+      "Gutter": {
+        "XS": {
+          "1": {
+            "type": "number",
+            "value": "{Gutter.1}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Gutter.1H}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Gutter.2}"
+          }
+        },
+        "S": {
+          "1": {
+            "type": "number",
+            "value": "{Gutter.2H}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Gutter.3H}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Gutter.4H}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Gutter.5H}"
+          },
+          "2H": {
+            "type": "number",
+            "value": "{Gutter.3}"
+          },
+          "3H": {
+            "type": "number",
+            "value": "{Gutter.4}"
+          },
+          "4H": {
+            "type": "number",
+            "value": "{Gutter.5}"
+          }
+        },
+        "M": {
+          "1": {
+            "type": "number",
+            "value": "{Gutter.7}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Gutter.9}"
+          }
+        }
+      },
+      "Size": {
+        "S": {
+          "1": {
+            "type": "number",
+            "value": "{Size Box.2H}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Size Box.3H}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Size Box.4H}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Size Box.5H}"
+          },
+          "2H": {
+            "type": "number",
+            "value": "{Size Box.3}"
+          },
+          "3H": {
+            "type": "number",
+            "value": "{Size Box.5}"
+          },
+          "4H": {
+            "type": "number",
+            "value": "{Size Box.5}"
+          },
+          "5H": {
+            "type": "number",
+            "value": "{Size Box.6}"
+          }
+        },
+        "M": {
+          "1": {
+            "type": "number",
+            "value": "{Size Box.7}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Size Box.9}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Size Box.11}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Size Box.13}"
+          },
+          "2H": {
+            "type": "number",
+            "value": "{Size Box.8}"
+          },
+          "4H": {
+            "type": "number",
+            "value": "{Size Box.12}"
+          }
+        },
+        "L": {
+          "1": {
+            "type": "number",
+            "value": "{Size Box.15H}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Size Box.18H}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Size Box.21H}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Size Box.24H}"
+          }
+        },
+        "XL": {
+          "1": {
+            "type": "number",
+            "value": "{Size Box.28}"
+          },
+          "2": {
+            "type": "number",
+            "value": "{Size Box.32}"
+          },
+          "3": {
+            "type": "number",
+            "value": "{Size Box.36}"
+          },
+          "4": {
+            "type": "number",
+            "value": "{Size Box.40}"
+          }
+        }
+      },
+      "Stroke": {
+        "MH": {
+          "type": "number",
+          "value": 0.5
+        },
+        "M": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "Icon": {
+        "XXS": {
+          "type": "number",
+          "value": "{Size Box.3H}"
+        },
+        "XS": {
+          "type": "number",
+          "value": "{Size Box.4H}"
+        },
+        "S": {
+          "type": "number",
+          "value": "{Size Box.6}"
+        },
+        "M": {
+          "type": "number",
+          "value": "{Size Box.7}"
+        },
+        "L": {
+          "type": "number",
+          "value": "{Size Box.8}"
+        },
+        "XL": {
+          "type": "number",
+          "value": "{Size Box.9}"
+        },
+        "XXL": {
+          "type": "number",
+          "value": "{Size Box.10}"
+        }
+      }
+    },
+    "Device": {
+      "Width": {
+        "type": "number",
+        "value": 430
+      },
+      "Height": {
+        "type": "number",
+        "value": 932
+      },
+      "Min Height": {
+        "type": "number",
+        "value": 932
+      }
+    },
+    "Safe Area": {
+      "Padding": {
+        "Top": {
+          "type": "number",
+          "value": 44
+        },
+        "Bottom": {
+          "type": "number",
+          "value": 34
+        }
+      },
+      "Height": {
+        "Top": {
+          "type": "number",
+          "value": 44
+        },
+        "Bottom": {
+          "type": "number",
+          "value": 34
+        }
+      }
+    },
+    "Sheet": {
+      "Max Height": {
+        "type": "number",
+        "value": 872
+      },
+      "Min Height": {
+        "type": "number",
+        "value": 240
+      }
+    },
+    "Form": {
+      "Checkbox-Radio": {
+        "type": "number",
+        "value": "{Size Box.6}"
+      }
+    }
+  }
+]
